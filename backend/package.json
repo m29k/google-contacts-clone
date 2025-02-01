@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This backend project is built in Node.js, Express.js and MySQL for a youtube course:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/a10762/Youtube/Courses/Contacts-Web-App-with-HTML5-CSS3-Javascript-Node.js-Express.js-and-MySQL/backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/a10762/Youtube/Courses/Contacts-Web-App-with-HTML5-CSS3-Javascript-Node.js-Express.js-and-MySQL/backend/issues"
+  },
+  "homepage": "https://gitlab.com/a10762/Youtube/Courses/Contacts-Web-App-with-HTML5-CSS3-Javascript-Node.js-Express.js-and-MySQL/backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
